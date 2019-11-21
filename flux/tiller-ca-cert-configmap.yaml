@@ -1,0 +1,38 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flux-helm-tls-ca-config
+  namespace: flux
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIE6jCCAtKgAwIBAgIUSAin/YzI1kKg70GDqoPbi5tX0KYwDQYJKoZIhvcNAQEN
+    BQAwDTELMAkGA1UEAxMCQ0EwHhcNMTkxMTIxMDAyODAwWhcNMjQxMTE5MDAyODAw
+    WjANMQswCQYDVQQDEwJDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIB
+    AMrOwr3sA7VovXKwyPT+koppOAI/qeXb2hpI7pJKqfvOhbOdJamKNwfMt2QQOsSm
+    tRUgUiYbSTZWWHn5DvHUXBmthEqoxp7uF5ZgScyrGYxv7lSH404KoIXfgku305wm
+    qQybrGTTQiR+aq1y3XUuCWFPrX0+Lil/f1ka2j2PwjNSPX4FnCXHIo/fpgFs3gwl
+    VgP7BYNzVWD0/aUb7+hKYhfzbHRD5npzMLPhBGX7qt6g2cSbkBXLEDrC+wClh8HL
+    +aVhEIJANJnFqnFf/SMAd3fxCB8hel3FU9HDHOPS7W9Pl/6dyE/ZdkucxDdFRpem
+    dpbgs2mSLUY7UjtOgl69fDjt1ZR77Nc37tGT0il06f91AMPtJwziXcUPpM1vjRyB
+    tD69esIlwroZe6aHbgZQkMaWuNp4aAuHeLmk8oMHYye5oz4up805vp18hfepa6Sn
+    pVMOXn9t99/3IFMEhi5B9tsfM0PCAiIWNoEHMr9tEy9t/0CcA4+i0GQ2rzUyc9/j
+    Z0Sj0bWOu+gM43oZxmVd8yIWfEydpdogC2J5lmLv2VBMzRVheM9+jFOQueRvqZPm
+    3oXjQhPnaSiB93yUmAlQCDdHoF4z/zk0xFEHlxxwPLwD3/n50EkKnrZprg/1E23M
+    D80//KKVGr3idrRUCG+r5szItdnaBGGC47kFmDiyMgYtAgMBAAGjQjBAMA4GA1Ud
+    DwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQGRhM6sWvKSDGl
+    YxEm0N9bfanNezANBgkqhkiG9w0BAQ0FAAOCAgEAbNsXTqTM+V2AcyaIOsMC1q3a
+    hSG545L600aQcXKHupqFVssrK7gOgF7zJKTHPybHpZYfC8MyxIMjyXEWgLUMbAKE
+    OzeS42gPfoJuB+z1E9YnNTrOIjs3+ApiFt3hrueA9cbmvdvxtNqpO8k3Bft/lT0c
+    MomQqTQbGAUgFWXoB/FJyXm9oLf4/JoSPVOU477IaVc7dZXn0jX/msPiLEPUI158
+    nDDKGCH2ddaaWRmpcxF6uLFpSt4vZT8pFk5uGel767HJ6qjfIZCKQydXsgoeosAu
+    /qjQzKt7yAJC6AZ+eoV5Dn6U8KvX1FGgiBClfVFHOeIG/geyTgnxgqr4sBqkIw/T
+    erzpXHKcKSVu9MNnLrn83TRbrpUYm2woXXXcykYUip5mPzNIYaAuIL/PPp7+/gAG
+    8QjMYsVcZwHjakzcluikx/LOL83Hky+0M0KfyttvFEl2Nr5YbYz2Uf7rrRdZojiP
+    SAU5aUZ/8q9UCzjABNZdmQDmqGGL5UrkXp5RJv55t6PhDeCMpWr0A9LH4s7jfg59
+    9/6sJp2qaz4+miN+vbLMTuz8m5YB8GabOpU+s/ASCEDADpOfg/4iTLclOJgD7rtk
+    GYVIHgM8g1SohEfVUkg/TzHW6/N2gobqwl2l3BOs/hG5kDs3PrMWMiiwa6aska/g
+    841eEd33/Gx135B1PgU=
+    -----END CERTIFICATE-----
+    
